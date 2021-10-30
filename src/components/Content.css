@@ -1,0 +1,24 @@
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.table {
+    width: auto;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.controls {
+    display: flex;
+    justify-content:  space-between;
+    padding: 12px 0;
+}
+
+.options-container {
+    display: flex;
+    grid-gap: 15px;
+}
