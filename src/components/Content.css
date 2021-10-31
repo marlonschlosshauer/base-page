@@ -22,3 +22,8 @@
     display: flex;
     grid-gap: 15px;
 }
+
+.content-button-container {
+    margin: auto;
+    margin-right: 0px;
+}

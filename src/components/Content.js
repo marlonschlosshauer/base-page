@@ -44,10 +44,12 @@ function Content() {
 					<StyledLink href="#parent">Home</StyledLink>
 					<span>Dashboard</span>
 				</Breadcrumbs>
-				<Button>Add User</Button>
 			</div>
 			<div className="controls">
 				<Display2>Users</Display2>
+				<div className='content-button-container'>
+					<Button>Add User</Button>
+				</div>
 			</div>
 			<div className='table'>
 				<TableBuilder data={u}>
